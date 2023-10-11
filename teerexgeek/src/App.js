@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./component/Home"; // Import your Home component here
-import Cart from "./component/Cart"; // Import your Cart component here
+import Home from "./component/HomeSection"; // Import your Home component here
+import Cart from "./component/CartSection"; // Import your Cart component here
 import { useEffect, useState } from "react";
 
 const App = () => {
@@ -160,8 +160,8 @@ const App = () => {
     saveCartData();
   }, [cartItems, countQty, cartQuantity]);
   /*
-  * calculated the total
- */
+   * calculated the total
+   */
   const getTotal = () => {
     let totalPrice = 0;
     cartItems.forEach((cart) => {
@@ -173,7 +173,7 @@ const App = () => {
 
   /**
    * Function to add a product to the cart.
-  */
+   */
 
   const addToCart = (product) => {
     setCartItems((prevCartItems) => {

@@ -13,8 +13,8 @@ import {
 import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 import DeleteIcon from "@mui/icons-material/Delete";
-import Header from "./Header";
-import "./Cart.css";
+import Header from "./HeaderSection";
+import "./CartSection.css";
 
 const CartItem = ({
   cart,

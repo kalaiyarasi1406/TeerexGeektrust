@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import TextField from "@mui/material/TextField";
 import SearchIcon from "@mui/icons-material/Search";
 import { FilterAlt } from "@mui/icons-material";
-import "./Search.css";
+import "./SearchSection.css";
 import { InputAdornment } from "@mui/material";
 import Button from "@mui/material/Button";
 

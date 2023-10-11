@@ -3,7 +3,7 @@ import FormControl from "@mui/material/FormControl";
 import Box from "@mui/material/Box";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import Checkbox from "@mui/material/Checkbox";
-import "./Filter.css";
+import "./FilterSection.css";
 
 function FilterComponent({ filterChecking, onFilterChecking }) {
   return (

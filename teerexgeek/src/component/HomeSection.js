@@ -1,11 +1,11 @@
 import React from "react";
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
-import Header from "./Header";
-import Filter from "./Filter";
-import Search from "./Search";
-import Product from "./Product";
-import "./Home.css";
+import Header from "./HeaderSection";
+import Filter from "./FilterSection";
+import Search from "./SearchSection";
+import Product from "./ProductSection";
+import "./HomeSection.css";
 import { Dialog, DialogContent, Stack } from "@mui/material";
 
 const Home = (props) => {
