@@ -1,0 +1,22 @@
+.search-desktop {
+  margin-left: 10px;
+  background-color: #f0e68d;
+}
+.search-mobile {
+  background-color: #f0e68d;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 900px) {
+  .search-desktop {
+    display: block !important;
+  }
+  .search-mobile {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 900px) {
+  .search-desktop {
+    display: none !important;
+  }
+}
